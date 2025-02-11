@@ -28,6 +28,10 @@ public class Lesson2 {
 
         byte m3 = (byte) m2;
 
+        String yui = "hhjjyh ljlkjklj kuiuewr";
+        String yui2 = yui.toUpperCase();
+        System.out.println(yui2);
+
 
 
 
