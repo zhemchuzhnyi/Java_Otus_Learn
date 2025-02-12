@@ -7,7 +7,7 @@ public class Lesson2 {
         int i = 130; //byte - от минус 128 до 127 это 1 байт
         char o = 'h';
         boolean y = true;
-        System.out.println(y);
+        //System.out.println(y);
 
 
         Cat cat = new Cat();
@@ -20,8 +20,8 @@ public class Lesson2 {
         Integer iy = 123;
         Integer yu = 125;
 
-        // Integer oo = max(iy,yu);
-        Integer oo2 = sum(iy,yu);
+        Integer oo = max(iy,yu);
+        //Integer oo2 = sum(iy,yu);
 
         byte m = 6;
         int m2 = m; // лежит 6 // 2 байта
@@ -30,7 +30,8 @@ public class Lesson2 {
 
         String yui = "hhjjyh ljlkjklj kuiuewr";
         String yui2 = yui.toUpperCase();
-        System.out.println(yui2);
+
+        System.out.println(y);
 
 
 
