@@ -6,6 +6,7 @@ public class Lesson3_3 {
             System.out.println("str1 и str2 имеют одинаковое содержимое");
         } else {
             System.out.println("str1 и str2 имеют разное содержимое");
+            
         }
     }
 }
