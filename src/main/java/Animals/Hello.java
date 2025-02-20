@@ -7,7 +7,7 @@ import Animals.Dog;
 
 public class Hello  {
     public static void main(String[] args){
-        Dog dog = new dog();
+        //Dog dog = new dog();
 
 
 
