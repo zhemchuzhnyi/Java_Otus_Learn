@@ -1,4 +1,5 @@
-import static java.lang.Integer.sum;
+package Learn;
+
 import static java.lang.Math.max;
 
 public class Lesson2 {

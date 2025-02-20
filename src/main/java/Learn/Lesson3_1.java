@@ -1,3 +1,5 @@
+package Learn;
+
 public class Lesson3_1 {
     public static void countDown(int n) {
         if (n == 0) { // Базовый случай: если n равно 0
