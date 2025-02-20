@@ -1,5 +1,13 @@
-.idea
-out
+# IntelliJ IDEA / JetBrains
+.idea/
 *.iml
-pom.xml
-target
+*.iws
+out/
+target/
+
+# Maven
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+dependency-reduced-pom.xml
+release.properties
