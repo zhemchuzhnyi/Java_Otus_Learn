@@ -1,34 +1,50 @@
 package Animals;
 
 public class Dog {
-    String name;
-    Integer age;
+    private String name;
+    private Integer age;
 
-    // Конструктор с именем и возрастом
     public Dog(String name, Integer age) {
         this.name = name;
         this.age = age;
     }
 
-    // Конструктор только с именем (возраст 0 по умолчанию)
     public Dog(String name) {
-        this.name = name;
-        this.age = 0; // Устанавливаем значение по умолчанию
+        this(name, 0);
     }
 
-    // Пустой конструктор с начальными значениями
     public Dog() {
-        this.name = "Безымянный";
-        this.age = 0;
+        this("Безымянный", 0);
     }
 
-    // Метод, чтобы собака лаяла
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public Integer getAge() {
+        return age;
+    }
+
+    public void setAge(Integer age) {
+        this.age = age;
+    }
+
     public void bark() {
         System.out.println(name + " говорит: Гав!");
     }
 
-    // Метод для вывода информации о собаке
     public void printInfo() {
         System.out.println("Имя: " + name + ", Возраст: " + age);
+    }
+
+    // Добавляем метод main для запуска
+    public static void main(String[] args) {
+        Dog dog = new Dog("Бобик", 5);
+        dog.bark();
+        dog.printInfo();
     }
 }
