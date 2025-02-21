@@ -7,7 +7,7 @@ public class Lesson3_3 {
         if (str1.equals(str2)) {
             System.out.println("str1 и str2 имеют одинаковое содержимое");
         } else {
-            System.out.println("str1 и str2 имеют разное содержимое");
+            System.out.println("str1 и str2 имеют разные содержимое");
             
         }
     }

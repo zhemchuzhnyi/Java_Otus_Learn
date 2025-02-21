@@ -5,7 +5,7 @@ public class Lesson3_2 {
         int a = 5;
         int b = 5;
         if (a == b) {
-            System.out.println("a и b равны");
+            System.out.println("a и b равны!");
         }
     }
 }
